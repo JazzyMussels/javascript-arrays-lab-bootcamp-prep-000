@@ -22,3 +22,8 @@ function appendKitten(name) {
   var new_kits = kittens.concat(name)
   return new_kits
 }
+
+function prependKitten(name) {
+  var new_kits = kittens.slice(name)
+  return new_kits
+}
